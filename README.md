@@ -105,7 +105,7 @@ SKIP_FRAMES = 2 # 值越大，处理速度越快但可能错过部分帧
 
 下面是项目的实际运行效果：
 
-![演示视频][[test.gif](https://github.com/ALing188/yolov5-rtsp-detection/blob/main/test.gif)]
+[test.gif](https://github.com/ALing188/yolov5-rtsp-detection/blob/main/test.gif)
 
 *注：视频显示了实时目标检测和对象统计功能*
 
