@@ -37,6 +37,8 @@
 1. 克隆仓库：
 ```bash
 git clone https://github.com/ALing188/yolov5-rtsp-detection.git
+```
+```bash
 cd yolov5-rtsp-detection
 ```
 2. 安装依赖：
@@ -49,8 +51,8 @@ pip install -r requirements.txt
 ## 使用说明
 
 1. 修改RTSP地址：
+在detect_rtsp.py中修改RTSP地址
 ```python
-#在detect_rtsp.py中修改RTSP地址
 rtsp_url = "rtsp://your_camera_ip/live/0"
 ```
 
@@ -81,6 +83,8 @@ python detect_rtsp.py
 修改显示比例（当前为原始大小的一半）
 ```python
 display_width = frame_width // 2
+```
+```python
 display_height = frame_height // 2
 ```
 
