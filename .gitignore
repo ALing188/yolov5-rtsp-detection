@@ -35,25 +35,12 @@ var/
 Thumbs.db
 
 # 项目特定文件
-*.pdf
-!rknn_support_list.pdf
-*.jpg
 *.onnx
 *.rknn
 rv1106/
 
-# 忽略所有 .pdf 文件，除了特定的文件
-*.pdf
-!RKNN支持操作待列表05_RKNN_Compiler_Support_Operator_List_v1.6.0.pdf
-
-# 忽略所有 .jpg 文件，除了特定的文件
-*.jpg
+# 允许特定文件
+!rknn_support_list.pdf
 !srick.jpg
-
-# 忽略所有 .pt 文件，除了特定的文件
-*.pt
 !srickyolov5nu.pt
-
-# 忽略所有 .avi 文件，除了特定的文件
-*.avi
 !output.avi 
