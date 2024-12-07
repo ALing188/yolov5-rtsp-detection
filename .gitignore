@@ -33,4 +33,11 @@ output.avi
 
 # 系统文件
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# 项目特定文件
+*.pdf
+*.jpg
+*.onnx
+*.rknn
+rv1106/ 
