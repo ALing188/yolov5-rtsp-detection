@@ -36,6 +36,7 @@ Thumbs.db
 
 # 项目特定文件
 *.pdf
+!rknn_support_list.pdf
 *.jpg
 *.onnx
 *.rknn
