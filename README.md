@@ -28,3 +28,14 @@
 ## 安装步骤
 
 1. 克隆仓库：
+- GPU: 建议NVIDIA GPU with CUDA支持
+- RAM: 最小8GB，建议16GB
+- 摄像头：支持RTSP协议的IP摄像头
+
+## 安装步骤
+
+1. 克隆仓库：
+2. ```bash
+git clone https://github.com/ALing188/yolov5-rtsp-detection.git
+cd yolov5-rtsp-detection
+```
